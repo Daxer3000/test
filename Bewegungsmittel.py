@@ -27,4 +27,4 @@ class Flugzeug(Bewegungsmittel):
 Auto=Bewegungsmittel(Ps=300)
 Auto.fill_in(40)
 Fliger=Flugzeug(100)
-print(Fliger.kmh)
+print(Fliger.kmh,"kmh Zahl des Flugzeugs")
